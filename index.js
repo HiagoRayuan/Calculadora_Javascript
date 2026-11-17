@@ -8,7 +8,7 @@ const leitor = createInterface({
 })
 
 leitor.question('Digite o primeiro número\n>', (numero1) => {    
-    leitor.question('Digite a operação:\n +: Soma\n -: Subtração\n *: Multiplicação\n /: Divisão\n>', (operacao) => {  
+    leitor.question('Digite a operação:\n +: \n -: Subtração\n *: Multiplicação\n /: Divisão\n>', (operacao) => {  
         leitor.question('Digite o segundo número: \n>', (numero2) => {
 
             const num1 = Number(numero1)
